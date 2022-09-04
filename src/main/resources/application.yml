@@ -4,3 +4,9 @@ spring:
   cloud:
     config:
       fail-fast: true
+
+logging:
+  level:
+    com.netflix: WARN
+    org.springframework.web: WARN
+    com.optimagrowth: DEBUG
